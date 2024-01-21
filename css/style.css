@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header-div{
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+    background-color: aquamarine;
+}
+h1{
+    color: salmon;
+    font-size: 40px;
+}
+img{
+    height: 2.1875rem;
+    width:2.1875rem;
+}
+
+li{
+    padding: 10px;
+}
