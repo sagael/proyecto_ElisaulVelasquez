@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="../JS/main.js"></script>
+    <script defer src="../JS/sumaCanasto.js"> </script>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header-check">
+                <h1>
+                    Lista de compra
+                </h1>
+                <span>
+                    <img src="../assets/img/libros.png" alt="">
+                </span>
+            </div>
+    </header>
+
+    <main class="main-check" >
+        <div>
+            <h2>Lista de Libros</h2>
+        </div>
+
+        <table class="product-table">
+            <thead>
+                <tr>
+                    <th>Nombre del libro</th>
+                    <th>Código</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody id="checkoutTableBody"></tbody>
+            <tfoot>
+                <tr id="total-carrito">
+                    <td></td>
+                    <td>TOTAL:</td>
+                    <td>$ 0.00</td>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+        <div>
+            <button id="boton-enviar" class="boton-finaliza-compra">Enviar</button>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
