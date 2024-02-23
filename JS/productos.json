@@ -1,0 +1,6 @@
+[
+    { "imagen": "📕", "codigo": 10, "titulo": "El libro rojo", "precio": 2100 },
+    { "imagen": "📗", "codigo": 20, "titulo": "La revista verde", "precio": 552 },
+    { "imagen": "📘", "codigo": 30, "titulo": "El cuaderno azul", "precio": 6530 },
+    { "imagen": "📒", "codigo": 40, "titulo": "La carpeta amarilla", "precio": 4525 }
+]

@@ -12,7 +12,6 @@ function sumarTotalCarrito() {
 sumarTotalCarrito()
 
 
-
 botonFinalizar.addEventListener("click", () => {
 
     if(canasto.length <= 0){
